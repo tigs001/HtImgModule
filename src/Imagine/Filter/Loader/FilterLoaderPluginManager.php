@@ -16,6 +16,7 @@ class FilterLoaderPluginManager extends AbstractPluginManager
         'RelativeResize' => RelativeResize::class,
         'relativeResize' => RelativeResize::class,
         'relativeresize' => RelativeResize::class,
+    	'relative_resize' => RelativeResize::class,
         'Resize' => Resize::class,
         'resize' => Resize::class,
         'Thumbnail' => Thumbnail::class,
@@ -31,6 +32,9 @@ class FilterLoaderPluginManager extends AbstractPluginManager
         RelativeResize::class => InvokableFactory::class,
         Resize::class => InvokableFactory::class,
         Thumbnail::class => InvokableFactory::class,
+
+		// Zf2 canonicalized name format
+//    	'htimgmoduleimaginefilterloaderrelativeresize' => InvokableFactory::class,
     ];
 
     public function validate($instance)
