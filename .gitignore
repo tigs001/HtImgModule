@@ -2,3 +2,7 @@ vendor
 composer.phar
 build
 .idea
+.buildpath
+.project
+.settings
+composer.lock
