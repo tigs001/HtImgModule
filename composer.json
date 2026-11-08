@@ -25,7 +25,7 @@
         "laminas/laminas-http": "^2",
         "laminas/laminas-eventmanager": "^2.7 || ^3",
         "imagine/Imagine": "^0.7.1",
-        "symfony/http-foundation": "~3.4"
+        "symfony/http-foundation": "^5.0"
     },
     "require-dev": {
         "ext-gd": "*",
